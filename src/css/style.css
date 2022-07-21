@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    line-height: 1.5;
+}
+
+.main-img {
+    display: flex;
+    align-items: center;
+    min-height: 538px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/main-image.jpg);
+
+}
+
+
+.main-img__text-container {
+    color: #fff;
+    max-width: 507px;
+}
+
+.main-img__title {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 53px;
+}
+
+.main-img__text {
+    max-width: 371px;
+    font-family: 'Helvetica';
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.main-img__btn {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding: 15px 32px;
+    background: #67AC5B;
+    border-radius: 4px;
+}
+
+.main-info__title {
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 25px;
+    color: #3E4857;
+}
+
+.main-info__text {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: #3E4857;
+}
+
+.main-info__item .card-img {
+    width: 90px;
+}
+
+/* ================= */
+
+.how-it-work {
+    background-color: #E5E5E5;
+}
+
+.how-it-work__img {
+    min-height: 415px;
+}
+
+.how-it-work__title {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 25px;
+    color: #3E4857;
+}
+
+.how-it-work__text {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: #3E4857;
+}
+
+/* ========================== */
+
+.how-it-make-body {
+    padding-top: 50px;
+}
+
+.how-it-make-body__title {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 25px;
+    color: #3E4857;
+}
+
+.how-it-make-body__text {
+    padding-top: 20px;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: #3E4857;
+}
+
+.how-it-make__title {
+    padding-top: 70px;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 25px;
+    color: #3E4857;
+}
+
+.how-it-make__text {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    text-align: center;
+    color: #3E4857;
+}
+
+/* ============================== */
+
+.questions-block__title {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 25px;
+    color: #3E4857;
+}
+
+.questions-block .accordion-button:not(.collapsed) {
+    background: none;
+    color: #D63864;
+}
+
+.questions-block .accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.questions-block .accordion-button {
+    font-size: 20px;
+}
+
+.questions-block .accordion-header {
+    font-family: 'Arial';
+    color: #3E4857;
+}
+
+.accordion-body {
+    font-family: 'Arial';
+    font-size: 18px;
+    color: #3E4857;
+}
